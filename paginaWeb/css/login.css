@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(../assets/mario.jpg);
+    background-size: cover;
+}
+
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 10% 34%;
+    height: 370px;
+    width: 500px;
+    border: black 4px solid;
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 600px;
+}
+
+nav{
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    min-width: 500px;
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+form{
+    text-align: center;
+    color: white;
+    height: 97%;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    margin: 20px 0 0 0;
+    width: 50%;
+    height: 6%;
+    border: none;
+    border-radius: 5px;
+    opacity: 80%;
+    font-size: 16px;
+}
+
+button{
+    font-size: 17px;
+    padding: 10px 27px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(66, 155, 66);
+}
+
+button:hover{
+    background-color: rgb(11, 247, 50);
+    transition: .7s;
+    color: white;
+}
+
+.registro{
+    position: relative;
+    bottom: 3rem;
+    margin: 0 30%;
+    color: white;
+}
+
+p .enlaceRegistro{
+    padding: 5px;
+}
+
+.enlaceRegistro{
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 6px;
+}
+
+.enlaceRegistro:hover{
+    background-color: #121212;
+    transition: .7s;
+}

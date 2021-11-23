@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lancelot&display=swap" rel="stylesheet">
 </head>
-<body>
-    <nav>
-        <h1>Bienvenido</h1>
-    </nav>
-    <main class="contenedor">
-        <form action="validacion.php" method="post">
+<body class="body-login">
+    <main class="contenedor-login">
+        <form action="validacion.php" method="post" class="form-login">
             <h2>Login</h2>
-            <br>
             <br>
             <label for="">Usuario</label>
             <br>

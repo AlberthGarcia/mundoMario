@@ -155,13 +155,18 @@ p .enlaceRegistro{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: .5rem;
+    opacity: 80%;
 }
 
-.img-logo{
-    width: 60px;
-    height: 60px;
-    border-radius: 40px;
+.logo{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    border: 3px solid #fff;
+    border-radius: 1rem;
+    padding: 5px;
+    text-decoration: none;
 }
 
 .nav a{
@@ -172,4 +177,52 @@ p .enlaceRegistro{
 
 .nav a:last-child{
     margin-right: 0px;
+}
+
+.nav a:hover{
+    color: #000;
+    transition: .5s;
+}
+
+.section-header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.noticias{
+    background-image: url(../assets/luigi-individual.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 42.9rem;
+}
+
+.juegos{
+    background-image: url(../assets/yoshi.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 42.9rem;
+}
+
+.personajes{
+    background-image: url(../assets/mario-individual.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 42.9rem;
+}
+
+.texto-header{
+    display: inline-block;
+    position: relative;
+    top: 21rem;
+    left: 8rem;
+    color: #fff;
+    background-color: rgba(170, 6, 6, 0.496);
+    border-radius: 1rem;
+    padding: 7px 1rem;
+    font-size: 2rem;
+}
+
+
+.texto-header:hover{
+    border: 3px solid #70e000;
 }

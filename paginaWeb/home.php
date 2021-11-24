@@ -10,22 +10,28 @@
 <body>
     <header>
         <section class="navegacion">
-            <img src="assets/logo.jpg" alt="Mario" class="img-logo">
+            <a class="logo" href="home.php">MarioBros</a>
             <nav class="nav">
                 <a href="">Inicio</a>
                 <a href="">Nosotros</a>
                 <a href="">Mas noticias</a>
             </nav>
         </section>
-        <section>
-            <h1>Conoce mas sobre el mundo de mario</h1>
-            <img src="" alt="mario">
-        </section>
+        <div class="section-header">
+            <section class="noticias">
+                <h3 class="texto-header">Nuevas noticias</h3>
+            </section>
+            <section class="juegos">
+                <h3 class="texto-header">Nuevos juegos</h3>
+            </section>
+            <section class="personajes">
+                <h3 class="texto-header">Nuevos personajes</h3>
+            </section>
+        </div>
     </header>
     <main>
-        <section>
-
-        </section>
+       
+    
     </main>
 </body>
 </html>

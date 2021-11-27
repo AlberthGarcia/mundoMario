@@ -12,20 +12,20 @@
         <section class="navegacion">
             <a class="logo" href="home.php">MarioBros</a>
             <nav class="nav">
-                <a href="">Inicio</a>
-                <a href="">Nosotros</a>
-                <a href="">Mas noticias</a>
+                <a href="contacto.php">Contacto</a>
+                <a href="usuarios.php">Usuarios</a>
+                <a href="noticias.php">Mas noticias</a>
             </nav>
         </section>
         <div class="section-header">
             <section class="noticias">
-                <h3 class="texto-header">Nuevas noticias</h3>
+                <h3 class="texto-header">Noticias</h3>
             </section>
             <section class="juegos">
-                <h3 class="texto-header">Nuevos juegos</h3>
+                <h3 class="texto-header">Juegos</h3>
             </section>
             <section class="personajes">
-                <h3 class="texto-header">Nuevos personajes</h3>
+                <h3 class="texto-header">Personajes</h3>
             </section>
         </div>
     </header>

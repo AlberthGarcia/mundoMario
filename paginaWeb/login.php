@@ -17,12 +17,12 @@
             <br>
             <label for="">Usuario</label>
             <br>
-            <input type="text" name="correo">
+            <input type="text" name="usuario" required>
             <br>
             <br>
             <label for="">Contraseña</label>
             <br>
-            <input type="password" name="password">
+            <input type="password" name="password" required>
             <br> <br>
             <button>Iniciar</button>
         </form>

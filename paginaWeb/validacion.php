@@ -19,9 +19,9 @@
     if (mysqli_num_rows($querySesion) == 1) {
         //Redirecciona al home si es correcto
         header('location:home.php');
-    }else{
+    }else
+        if(mysqli_num_rows($querySesion) !=1 ){
         //Dato incorrecto
-      echo "<h1>Usuario y contrasena incorrectose</h1>";
-        
-    }
+        echo "<h1>Usuario y contrasena incorrectose</h1>";   
+        }
 ?>

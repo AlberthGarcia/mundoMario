@@ -10,5 +10,5 @@
     $queryRegistro = "INSERT INTO usuario (nombre,usuario,contrasena,correo) values('$nombre','$usuario','$contrasena','$correo')";
     #SE VALIDA LA CONSULTA
     $validacion = mysqli_query($conexion,$queryRegistro);
-
+    
 ?>

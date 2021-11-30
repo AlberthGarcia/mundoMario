@@ -150,6 +150,13 @@ p .enlaceRegistro{
 }
 
 /*CSS Home*/
+.h1-home{
+    position: relative;
+    left: 5rem;
+    color: #fff;
+    text-align: center;
+}
+
 .navegacion{
     background-color: rgb(53, 134, 0);
     display: flex;
@@ -250,6 +257,10 @@ p .enlaceRegistro{
 .botonContacto{
     position: relative;
     bottom: 1rem;
+}
+
+.regresar{
+    background-color: red;
 }
 
 /*ESTILOS USUARIOS*/

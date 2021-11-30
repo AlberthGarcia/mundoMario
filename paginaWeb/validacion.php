@@ -19,6 +19,7 @@
         while($usuarioBD = mysqli_fetch_array($querySesion)){
             $_SESSION['usuarioBD'] = $usuarioBD;
         }
+            $_SESSION['usuario'] = $usuario;
         // Redirecciona al home si es correcto
         header('location:home.php');
     }else{

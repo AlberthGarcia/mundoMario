@@ -35,7 +35,7 @@
                 <br>
                 <textarea name="asunto" id="" rows="5"></textarea>
                 <br><br>
-                <button>Enviar</button>
+                <button class="botonContacto">Enviar</button>
             </form>
         </section>
     </main>

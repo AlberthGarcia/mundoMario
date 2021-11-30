@@ -246,3 +246,10 @@ p .enlaceRegistro{
     top: 3rem;
     left: 19rem;
 }
+
+.botonContacto{
+    position: relative;
+    bottom: 1rem;
+}
+
+/*ESTILOS USUARIOS*/

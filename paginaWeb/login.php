@@ -24,7 +24,7 @@
             <br>
             <input type="password" name="password" required>
             <br> <br>
-            <button>Iniciar</button>
+            <button type="submit">Iniciar</button>
         </form>
         <div class="registro">
             <p class="registrate">No tienes cuenta? Registrate</p>

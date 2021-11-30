@@ -1,5 +1,5 @@
 <?php 
-    include("dbConexion.php");
+    include_once("dbConexion.php");
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -22,33 +22,35 @@
         </section>
     </header>
     <main>
-        <table>
-            <tr>
-                <td>ID</td>
-                <td>Nombre</td>
-                <td>Usuario</td>
-                <td>Contaseña</td>
-                <td>Correo</td>
-            </tr>
-            <?php 
+        <div class="contenedor-usuarios">
+            <table>
+                <tr>
+                    <td>ID</td>
+                    <td>Nombre</td>
+                    <td>Usuario</td>
+                    <td>Contaseña</td>
+                    <td>Correo</td>
+                </tr>
+                <?php 
             
-                $consulta = "SELECT * FROM usuario";
-                $validacion = mysqli_query($conexion, $conexion);
-                while($resultado = mysqli_fetch_array($validacion)){
-                    
-            ?>
-                    
-            <tr>
-                <td><?php echo $resultado['id_usuario']?></td>
-                <td><?php echo $resultado['nombre']?></td>
-                <td><?php echo $resultado['usuario']?></td>
-                <td><?php echo $resultado['contrasena']?></td>
-                <td><?php echo $resultado['correo']?></td>
-                <?php
-                    }
+                    $consulta = "SELECT * FROM usuario";
+                    $validacion = mysqli_query($conexion, $consulta);
+                    while($resultado = mysqli_fetch_array($validacion)){
+                        
                 ?>
-            </tr>
-        </table>
+                        
+                <tr class="tabla-usuarios">
+                    <td><?php echo $resultado['id_usuario']?></td>
+                    <td><?php echo $resultado['nombre']?></td>
+                    <td><?php echo $resultado['usuario']?></td>
+                    <td><?php echo $resultado['contrasena']?></td>
+                    <td><?php echo $resultado['correo']?></td>
+                    <?php
+                        }
+                    ?>
+                </tr>
+            </table>
+        </div>
     </main>
 </body>
 </html>

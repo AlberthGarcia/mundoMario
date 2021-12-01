@@ -28,7 +28,6 @@
             <nav class="nav">
                 <a href="contacto.php">Contacto</a>
                 <a href="usuarios.php">Usuarios</a>
-                <a href="noticias.php">Mas noticias</a>
                 <a href="cerrarSesion.php">Cerrar Sesion</a>
             </nav>
         </section>

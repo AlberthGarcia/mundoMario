@@ -28,19 +28,19 @@
             <nav class="nav">
                 <a href="contacto.php">Contacto</a>
                 <a href="usuarios.php">Usuarios</a>
-                <a href="noticias.php">Mas noticias</a>
                 <a href="cerrarSesion.php">Cerrar Sesion</a>
             </nav>
         </section>
     </header>
     <main>
         <div class="contenedor-usuarios">
-            <table>
+            <table class="tabla-usuarios tabla-estilos">
+                <caption>USUARIOS</caption>
                 <tr>
-                    <td>ID</td>
+                    <td class="borde-final">ID</td>
                     <td>Nombre</td>
                     <td>Usuario</td>
-                    <td>Contaseña</td>
+                    <td>Contraseña</td>
                     <td>Correo</td>
                 </tr>
                 <?php 
@@ -51,8 +51,8 @@
                         
                 ?>
                         
-                <tr class="tabla-usuarios">
-                    <td><?php echo $resultado['id_usuario']?></td>
+                <tr>
+                    <td class="borde-final"><?php echo $resultado['id_usuario']?></td>
                     <td><?php echo $resultado['nombre']?></td>
                     <td><?php echo $resultado['usuario']?></td>
                     <td><?php echo $resultado['contrasena']?></td>

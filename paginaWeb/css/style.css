@@ -264,3 +264,43 @@ p .enlaceRegistro{
 }
 
 /*ESTILOS USUARIOS*/
+.contenedor-usuarios{
+    background-image: url(../assets/fondo-usuarios.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 42.9rem;
+    width: 100%;
+}
+
+caption{
+    font-size: 2rem;
+}
+
+table{
+    font-size: 1.2rem;
+}
+
+.tabla-usuarios{
+    width: 50%;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    top: 10rem;
+}
+
+.tabla-estilos{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: #000 4px solid;
+    border-radius: 10px;
+}
+
+table td{
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+
+.borde-final{
+    border-left: none;
+}
+

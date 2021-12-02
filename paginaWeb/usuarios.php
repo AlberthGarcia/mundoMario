@@ -10,6 +10,12 @@
         echo "<a href=login.php>Regresar </a>";
         die();
     }
+    if( $_SESSION['admin'] === 'user'){
+        echo "<h2>Usted no tiene autorizacion de consultar usuarios</h2>";
+        //Se crea un boton para refresar al home  
+        echo "<a href=home.php>Regresar </a>";
+        die();
+    }
 ?>
 
 <!DOCTYPE html>

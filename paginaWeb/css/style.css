@@ -104,7 +104,7 @@ p .enlaceRegistro{
     background-color: rgba(0, 0, 0, 0.5);
     display: block;
     margin: 5% 45%;
-    height: 590px;
+    height: 790px;
     width: 500px;
     border: black 4px solid;
     border-radius: 10px;
@@ -123,6 +123,7 @@ p .enlaceRegistro{
 }
 
 .registro-registro{
+    display: inline-block;
     position: relative;
     bottom: 3rem;
     left: 1rem;
@@ -131,11 +132,13 @@ p .enlaceRegistro{
 .registrate{
     color: #fff;
     font-size: 1.1rem;
+    position: relative;
+    bottom: 14px;
 }
 
 .login-registro{
-    position: relative;
-    top: 10px;
+    display: inline;
+    margin-bottom: 14px;
     text-decoration: none;
     color: #fff;
     font-size: 1.2rem;
@@ -147,6 +150,13 @@ p .enlaceRegistro{
 .login-registro:hover{
     background-color: #121212;
     transition: .7s;
+}
+
+.form-registro > input[type="radio"]{
+    display: flex;
+    width: 1.8rem;
+    margin-left: 14.2rem;
+    
 }
 
 /*CSS Home*/

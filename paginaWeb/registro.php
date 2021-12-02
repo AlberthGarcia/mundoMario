@@ -30,11 +30,17 @@
             <label for="">Correo</label>
             <br>
             <input type="email" name="correo">
+            <br><br>
+            <label for="">Administrador</label>
+            <input type="radio" name="admin" value="administrador">
             <br>
+            <label for="">Usuario</label>
+            <input type="radio" name="admin" value="user" checked>
+            <br>    
             <button class="registrarse">Registrarse</button>
         </form>
         <div class="registro-registro">
-            <p class="registrate">Ya tienes una cuenta? Inicia sesion aqui</p>
+            <p class="registrate">Ya tienes una cuenta? <br> Inicia sesion aqui</p>
             <p><a href="login.php" class="login-registro">Login</a></p>
         </div>
     </main>
